@@ -26,7 +26,7 @@ Button {
 }
 @media screen and (max-width: 450px) {
   h1 {
-    font-size: 35px;
+    font-size: 32px;
     margin-top: -30px;
   }
 
