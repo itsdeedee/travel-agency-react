@@ -1,53 +1,58 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "../Navbar.css";
+import HeroComponent from "./HeroComponent";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
+  const [touch, setTouch] = useState(false);
+
   function HandleClick() {
     setClick(!click);
   }
-  function closeMenubar() {
-    setClick(false);
+  function showIcon() {
+    setTouch(!touch);
   }
   return (
     <div>
       <nav className="navbar">
         <div class="navbarContainer">
-          <Link to="/" className="navbar-logo">
-            FLI <i class="fa-solid fa-paper-plane" />
+          <Link to="/" className="navbar-logo" onMouseEnter={showIcon}>
+            FLI{" "}
+            <i
+              className={
+                touch
+                  ? "fa-solid fa-paper-plane fa-bounce"
+                  : "fa-solid fa-paper-plane"
+              }
+            />
           </Link>
-          <div className="Menubar" onClick={HandleClick}>
-            <i className={click ? "fa-solid fa-xmark" : "fas fa-bars"} />
+          <div className="menu-icons" onClick={HandleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
+
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-items">
-              <Link to="/" className="nav-links" onClick={closeMenubar}>
-                Home
-              </Link>
+            <li>
+              <Link className="nav-links">Home</Link>
             </li>
-            <li className="nav-items">
-              <Link to="/" className="nav-links" onClick={closeMenubar}>
-                About
-              </Link>
+            <li>
+              <Link className="nav-links">Services</Link>
             </li>
-            <li className="nav-items">
-              <Link to="/" className="nav-links" onClick={closeMenubar}>
-                Services
-              </Link>
+            <li>
+              <Link className="nav-links">Deals</Link>
             </li>
-            <li className="nav-items">
-              <Link to="/" className="nav-links" onClick={closeMenubar}>
-                Pricing
-              </Link>
+            <li>
+              <Link className="nav-links">Gallery</Link>
             </li>
-            <li className="nav-items">
-              <Link to="/" className="nav-links" onClick={closeMenubar}>
-                Contact
-              </Link>
+            <li>
+              <Link className="nav-links">Contact</Link>
             </li>
           </ul>
         </div>
       </nav>
+      <div className="Hero" style={{ display: click ? "none" : "block" }}>
+        <HeroComponent />
+      </div>
     </div>
   );
 }
