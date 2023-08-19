@@ -4,13 +4,12 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="body">
       <Navbar />
-
       <Routes>
         <Route path="/" exact />
       </Routes>
-    </>
+    </div>
   );
 }
 
