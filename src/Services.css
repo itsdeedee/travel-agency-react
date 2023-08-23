@@ -1,3 +1,51 @@
 .table {
-  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+}
+.Services {
+  margin-top: 150px;
+  color: green;
+}
+.item3 {
+  margin-top: 30px;
+}
+.item1 {
+  margin-right: 25px;
+}
+.item2 {
+  margin-right: 25px;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  margin-left: 300px;
+}
+.Service-list {
+  border: 1px white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.Service-list:hover {
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.icon {
+  border: 2px solid lightgreen;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+h4 {
+  font-family: "Inconsolata", monospace;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+p {
+  color: rgb(13, 39, 13);
+  margin-left: 5px;
 }
