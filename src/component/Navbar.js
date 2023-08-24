@@ -50,9 +50,8 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-      <div className="Hero" style={{ display: click ? "none" : "block" }}>
-        <HeroComponent />
-      </div>
+
+      <HeroComponent />
     </div>
   );
 }

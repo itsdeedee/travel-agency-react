@@ -20,7 +20,7 @@ function Services() {
           </div>
           <div className="Service-list">
             {" "}
-            <i className="fa-solid fa-plane-up icon"></i>{" "}
+            <i className="fa-solid fa-location-dot icon"></i>{" "}
             <h4>Tours and Activities</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sediiiii
