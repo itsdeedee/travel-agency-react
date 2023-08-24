@@ -60,7 +60,6 @@
   .nav-menu.active {
     left: 0;
     opacity: 1;
-    z-index: -1;
   }
   .nav-links {
     color: white;
@@ -81,10 +80,12 @@
   }
   .navbar-logo {
     color: white;
+    z-index: 1;
   }
   .menu-icons {
     display: block;
     color: white;
     font-size: 25px;
+    z-index: 1;
   }
 }
