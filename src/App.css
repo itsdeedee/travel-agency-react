@@ -1,1 +1,42 @@
+.Banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(26, 167, 26);
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: -10px;
+  margin-right: -8px;
+}
+.list-1 {
+  margin-top: 150px;
+  color: darkgreen;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 30px;
+}
+.list-2 {
+  margin-top: -90px;
+  margin-bottom: -120px;
+  color: white;
+}
 
+.Writer {
+  margin-top: 40px;
+  margin-left: 310px;
+  color: white;
+  font-size: 16px;
+}
+.Banner-content {
+  color: white;
+  font-size: 25px;
+}
+@media screen and (max-width: 850px) {
+  .Banner {
+    display: block;
+    background-image: url("./globe.json");
+  }
+  .list-2 {
+    display: none;
+  }
+}
