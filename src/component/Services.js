@@ -47,7 +47,7 @@ function Services() {
           </div>
         </div>
         <div className="item3">
-          <img src={explore} width={450} />
+          <img src={explore} width={450} alt="man and son" />
         </div>
       </div>
     </div>
