@@ -31,12 +31,21 @@
   color: white;
   font-size: 25px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .Banner {
     display: block;
-    background-image: url("./globe.json");
   }
   .list-2 {
-    display: none;
+    margin-top: -360px;
+    margin-bottom: 100px;
+  }
+  .list-1 {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    padding-top: 190px;
+  }
+  .Writer {
+    margin-left: 210px;
   }
 }
