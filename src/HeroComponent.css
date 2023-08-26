@@ -1,5 +1,5 @@
 .hero-container {
-  background-image: url("./nature.jpg");
+  background-image: url("images/p.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0px;
@@ -33,5 +33,10 @@ Button {
 
   Button {
     margin-top: -165px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-container {
+    background-image: url("./nature.jpg");
   }
 }
