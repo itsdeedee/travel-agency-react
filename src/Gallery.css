@@ -36,31 +36,14 @@ html {
   }
 }
 
-::-webkit-scrollbar {
-  width: 1.3rem;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 1rem;
-  background: #797979;
-  transition: all 0.5s ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #222224;
-}
-
-::-webkit-scrollbar-track {
-  background: #f9f9f9;
-}
-
 body {
   font-size: 1.6rem;
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 124rem;
+  max-width: 120rem;
   padding: 4rem 1rem;
   margin: 0 auto;
 }
@@ -151,7 +134,7 @@ body {
 }
 
 .slider-controler .slider-arrow {
-  background: var(--white);
+  background: green;
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
@@ -162,7 +145,7 @@ body {
 
 .slider-controler .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #222224;
+  color: white;
 }
 
 .slider-controler .slider-arrow::after {
@@ -180,5 +163,18 @@ body {
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-  background: var(--primary);
+  background: lightgreen;
+}
+h3 {
+  font-size: 30px;
+  color: darkgreen;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-family: "Inconsolata", monospace;
+  border-bottom: 2px solid green;
+  padding: 15px 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
 }
