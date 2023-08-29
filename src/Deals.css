@@ -1,0 +1,23 @@
+h5 {
+  text-transform: uppercase;
+  color: green;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.Deals-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+}
+.Deals-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+}
+.Deals-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+}
