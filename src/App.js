@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Services from "./component/Services";
 import Banner from "./component/Banner";
 import Deals from "./component/Deals";
+
 import "./App.css";
 
 function App() {
