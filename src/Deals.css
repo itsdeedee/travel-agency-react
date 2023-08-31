@@ -113,6 +113,7 @@ h5 {
     margin: 0 auto;
     display: block;
     margin-top: 80px;
+    padding: 0;
   }
   .imgiii {
     margin: 0 auto;
@@ -126,5 +127,6 @@ h5 {
   .imgi {
     display: block;
     margin: 0 auto;
+    padding: 0;
   }
 }
