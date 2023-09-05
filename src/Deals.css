@@ -11,16 +11,19 @@ h5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
+  overflow-x: hidden;
 }
 .Deals-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
+  overflow-x: hidden;
 }
 .Deals-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
+  overflow-x: hidden;
 }
 .Deals-list1 {
   width: 27rem;
@@ -112,12 +115,12 @@ h5 {
   .imgii {
     display: block;
     margin-top: 80px;
-    margin-left: -50px;
+    margin-left: -60px;
   }
   .imgiii {
     display: block;
     margin-top: 120px;
-    margin-left: -40px;
+    margin-left: -50px;
   }
   .Deals-list1 {
     width: 23rem;
