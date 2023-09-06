@@ -11,19 +11,17 @@ h5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
-  overflow-x: hidden;
 }
 .Deals-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
-  overflow-x: hidden;
 }
 .Deals-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
-  overflow-x: hidden;
+  margin-bottom: 200px;
 }
 .Deals-list1 {
   width: 27rem;
@@ -130,4 +128,6 @@ h5 {
     display: block;
     margin: 0 auto;
   }
+}
+@media screen and (max-width: 500px) {
 }
